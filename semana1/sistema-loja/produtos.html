@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>adicionar produtos</title>
+</head>
+<body>
+    <!-- inicio cabeçalho -->
+    <h2>Adicionar ou Remover produtos</h2>
+    <p>Essa página serve para adicionar ou remover produtos, para fazer isso basta 
+        preencher o formulario e pronto você adicionou ou removeu um produto.
+        No caso de remover produtos não precisa preencher a descrição.
+    </p>
+    <!-- final cabeçalho -->
+     
+    <!-- inicio menu de links  -->
+    <a href="index.html">Home</a> 
+    <a href="funcionarios.html">Lista de funcionarios</a>
+    <a href="produtos.html"> produtos</a>
+    <!-- final menu de links -->
+   
+    <!-- inicio form para adicionar/remover produtos -->
+    <form>
+        <label for="produto">Nome do produto:</label>
+        <input type="text" name="produto" id="produto"><br>
+        
+        <label for="descricao">descrição:</label>
+        <input type="text" name="descricao" id="descricao"><br>
+
+        <label for="preco">Preço:</label>
+        <input type="text" name="preco" id="preco"><br>
+
+        <button name="adicionar" id="adicionar">adicionar</button> 
+        <button name="remover" id="remover">Remover</button>
+    </form>
+
+</body>
+</html>
