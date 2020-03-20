@@ -4,21 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>adicionar produtos</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <!-- inicio cabeçalho -->
-    <h2>Adicionar ou Remover produtos</h2>
-    <p>Essa página serve para adicionar ou remover produtos, para fazer isso basta 
+    <h2 class="logo">Adicionar ou Remover produtos</h2>
+    
+    
+ <div class="menu"> <!-- inicio menu de links  -->
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="funcionarios.html">Lista de Funcionarios</a></li>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a href="estoque.html">Controle De Estoque</a></li>
+        <div class="clear"></div>
+    </ul>
+ </div> <!-- final menu de links -->
+    
+    <p class="initial-content">Essa página serve para adicionar ou remover produtos, para fazer isso basta 
         preencher o formulario e pronto você adicionou ou removeu um produto.
         No caso de remover produtos não precisa preencher a descrição.
     </p>
     <!-- final cabeçalho -->
      
-    <!-- inicio menu de links  -->
-    <a href="index.html">Home</a> 
-    <a href="funcionarios.html">Lista de funcionarios</a>
-    <a href="produtos.html"> produtos</a>
-    <!-- final menu de links -->
+    
    
     <!-- inicio form para adicionar/remover produtos -->
     <form>
@@ -26,7 +35,7 @@
         <input type="text" name="produto" id="produto"><br>
         
         <label for="descricao">descrição:</label>
-        <input type="text" name="descricao" id="descricao"><br>
+        <input type="textarea" name="descricao" id="descricao"><br>
 
         <label for="preco">Preço:</label>
         <input type="text" name="preco" id="preco"><br>
@@ -34,6 +43,10 @@
         <button name="adicionar" id="adicionar">adicionar</button> 
         <button name="remover" id="remover">Remover</button>
     </form>
-
+    <!-- final form adicionar/remover produto -->
+     
+    <div class="rodape"> <!-- inicio rodape -->
+        <p class="final"> 2020-2020 Loja do Seu Zé | Todos os direitos reservados </p>
+     </div> <!-- final rodape -->
 </body>
 </html>

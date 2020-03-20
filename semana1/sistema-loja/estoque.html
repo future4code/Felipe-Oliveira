@@ -4,23 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>controle de estoque</title>
+    <link rel="stylesheet"  type="text/css" href="style.css">
 </head>
 <body>
-    <!--inicio do cabeçalho-->
-    <H3>Controle de Estoque</H3>
-    <p>Essa é nossa página de controle de estoque, 
+    
+ <div> <!--inicio do cabeçalho-->
+    <H3 class="logo">Controle de Estoque</H3>
+   
+ <div class="menu">
+    <!-- inicio menu de links -->
+    <ul>
+        <li> <a href="index.html">Home</a> </li>
+        <li> <a href="funcionarios.html">Lista de funcionarios </a> </li>
+        <li> <a href="produtos.html"> produtos</a> </li>
+        <li><a href="estoque.html">Controle De Estoque</a></li>
+    </ul>
+    
+ </div> <!-- final menu de links -->
+   
+    <p class="initial-content">Essa é nossa página de controle de estoque, 
     aqui você consegue ver os produtos disponiveis,<br> a quantidade e o preço em que está sendo vendido, 
     .</p>
-    <!--final cabeçalho-->
     
-    <!-- inicio menu de links -->
-    <a href="index.html">Home</a> 
-    <a href="funcionarios.html">Lista de funcionarios</a>
-    <a href="produtos.html"> produtos</a>
-    <!-- final menu de links -->
+ </div> <!--final cabeçalho-->
     
-    <!--inicio tabelas de produtos-->
-    <table>
+    
+    <div> <!--inicio tabelas de produtos-->
+     <table id="tabela-produtos">
         <tr>
             <th><h4>Produtos disponiveis</h4></th>
             <th><h4>Descrição</h4></th> 
@@ -49,8 +59,13 @@
             </td>
             <td>R$150,00</td>
         </tr>
-    </table>
-    <!-- final tabela de produtos -->
+     </table>
+    </div> <!-- final tabela de produtos -->
+
+
+    <div class="rodape"> <!-- inicio rodape -->
+        <p class="final"> 2020-2020 Loja do Seu Zé | Todos os direitos reservados </p>
+     </div> <!-- final rodape -->
 
 </body>
 </html>
