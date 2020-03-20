@@ -1,0 +1,71 @@
+/* ============ Estrutura basica ======== */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body,html{
+    width: 1240px;
+    height: 700px;
+    background-color:#808080;
+}
+
+#logo{
+  background-image: url(imagens/logo-1.jpg);
+  width: 1240px;
+  height: 600px;
+  opacity: 95%;
+}
+
+
+/* ============ Estrutura do menu ======= */
+
+#menu{
+    width: 1240px;
+
+}
+#menu ul{
+    padding: 40px;
+    background-color: #363636;
+    list-style: none;
+}
+
+#menu ul li{
+    position: relative;
+    display: inline;
+    letter-spacing: 1px;
+    padding: 35px;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    color:#4F4F4F;
+}
+
+#menu ul li a:hover{
+    color:#FFE4C4;
+}
+
+
+
+ /* ============ Estrutura texto-inicial ======== */
+
+#bio{
+    margin-left: 350px;
+    margin-top: 130px;
+    font-size: 15px;
+    font-family: monospace, Helvetica, sans-serif;
+    color: white;
+}
+
+.titulo-bio{
+    font-size: 60px;
+    color: #00BFFF;
+}
+
+.subtitulo-bio{
+    font-size: 20px;
+    margin-left: 40px;
+}
