@@ -1,0 +1,124 @@
+/*=====Seletores universais=======*/
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: #F0FFFF;
+}
+
+
+#header{
+    padding: 50px;
+    margin-left: 250px;
+}
+
+/* ======= Estrutura de menus e conteudos iniciais====== */
+.logo{
+    margin-left: 168px;
+}
+
+.menu{
+    width: 780px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.menu ul{
+    background:#1C1C1C;
+    border-radius: 20PX;
+    padding: 15PX;
+}
+
+.menu ul li{
+    list-style: none;
+    padding: 30px;
+    display: inline;
+    font-size: 20px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color:#D3D3D3;
+}
+
+.menu ul li a:hover{
+    background-color:#F0FFFF;
+    color:#1C1C1C;
+}
+
+.initial-content{
+    font-size: 20px;
+    padding: 15px;
+}
+
+/* ======== Estrutura de tabela de estoque===== */
+
+#tabela-produtos tr td{
+    border: 3px solid black;
+}
+
+#tabela-produtos td{
+    padding: 20px;
+}
+
+/* ========== Estrutura lista de funcionarios */
+
+#lista-funcionarios{
+    padding: 20px;
+    border: 2px solid black;
+    width: 100px;
+    margin-left: 25px;
+}
+
+#lista-funcionarios li{
+    border: 2px solid black;
+    padding: 8px;
+}
+
+/* =========== Estrutura de Adicionar/Remover Produtos */
+
+form{
+    border: 2px solid black;
+}
+
+label{
+    margin-left: 20px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#adicionar{
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+}
+
+#remover{
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+}
+
+/* ========== Estrutura rodape ========== */
+
+.rodape{
+    position: relative;
+    margin-top: 500px;
+    padding: 80px;
+    background-color: #1C1C1C;
+    border-radius: 20px;
+    color:white;
+}
+
+.final{
+    margin-left: 435px;
+}

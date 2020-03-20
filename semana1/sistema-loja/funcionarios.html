@@ -4,28 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lista de funcionarios</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <!-- inicio cabeçalho -->
-    <h2>Lista de funcionarios</h2>
-    <p>Nesta página você encontra o nome e data de nascimento de nosssos funcionarios</p>
+    <h2 class="logo">Lista de funcionarios</h2>
+       
+ <div class="menu"> <!-- inicio menu de links  -->
+    <ul>
+        <li> <a href="index.html">Home</a> </li>
+        <li> <a href="funcionarios.html">Lista de funcionarios </a> </li>
+        <li> <a href="produtos.html"> produtos</a> </li>
+        <li><a href="estoque.html">Controle De Estoque</a></li>
+    </ul>
+ </div> <!-- final menu de links -->
+
+    <p class="initial-content">Nesta página você encontra o nome e data de nascimento de nosssos funcionarios</p>
     <!-- final cabeçalho -->
 
-    <!-- inicio menu de links  -->
-    <a href="index.html">Home</a> 
-    <a href="funcionarios.html">Lista de funcionarios</a>
-    <a href="produtos.html"> produtos</a>
-    <!-- final menu de links -->
     
-    <!-- inicio lista de funcionarios -->
-    <ol>
-        <li><strong>Carol Rodrigues</strong></li> 14/07/1980
-        <li><strong>João Vinicios de Morais</strong></li>14/12/1990
-        <li><strong>Vitor Santos</strong></li>25/20/2000
-        <li><strong>Felipe Einstein</strong></li>27/02/2002
-        <li><strong>Jacinto Rodrigo</strong></li>30/03/1985
+    
+ <div> <!-- inicio lista de funcionarios -->
+    <ol id="lista-funcionarios">
+        <li><strong>Carol Rodrigues <br> 14/07/1980</strong></li> 
+        <li><strong>João Vinicios de Morais <br> 14/12/1990</strong></li>
+        <li><strong>Vitor Santos</strong> <br> 25/20/2000</li>
+        <li><strong>Felipe Einstein</strong> <br> 27/02/2002</li>
+        <li><strong>Jacinto Rodrigo</strong> <br> 30/03/1985</li>
     </ol>
-    <!-- final lista de funcionarios -->
+ </div> <!-- final lista de funcionarios -->
+
+ <div class="rodape"> <!-- inicio rodape -->
+    <p class="final"> 2020-2020 Loja do Seu Zé | Todos os direitos reservados </p>
+ </div> <!-- final rodape -->
     
 </body>
 </html>
