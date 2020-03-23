@@ -76,13 +76,12 @@ div img {
 #conteudo-inicial{
     position: absolute;
     top: 150px;
-    left: 400px;
+    left: 500px;
 }
  
     
 #conteudo-inicial>ol {
     padding: 15px 0px;
-    list-style: none;
 }
 
 #container-para-comprar {
