@@ -125,6 +125,11 @@ td button {
     color: black;
 }
 
+#tabela-precos{
+    position: relative;
+    left: 260px;
+}
+
 .container-do-search {
     margin-top: 20px;
     height: 100px;
@@ -135,6 +140,8 @@ td button {
     background-color: white;
     width: 100px;
     height: 20px;
+    position: relative;
+    top: 50px;
     border: 1px solid black;
     border-radius: 5px;
     font-size: 10px;
