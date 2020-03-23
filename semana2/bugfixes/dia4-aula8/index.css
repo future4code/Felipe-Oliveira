@@ -43,6 +43,10 @@ div img {
     height: 40px;
     border-radius: 5px;
     font-size: 20px;
+    position: relative;
+    top: 45px;
+    right: 234px;
+
     color: white;
 }
 
@@ -83,6 +87,8 @@ div img {
     color: #c44f00;
     padding: 100px 0;
     font-size: 60px;
+    position: relative;
+    left: 168px;
 }
 
 
