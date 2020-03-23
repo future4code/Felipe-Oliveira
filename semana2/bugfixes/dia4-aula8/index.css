@@ -21,6 +21,13 @@ input {
     width: 500px;
 }
 
+.pesquisar{
+    border-bottom: 3px solid black;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
 button:focus {
     color: white;
 }
