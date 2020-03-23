@@ -17,6 +17,10 @@ h2 {
     text-align: center;
 }
 
+button{
+    outline: none;
+}
+
 input {
     height: 20px;
     width: 500px;
@@ -97,6 +101,10 @@ div img {
 
 #container-para-comprar {
     background-color: #e7eb90;
+}
+
+#conteiner-para-compra button a{
+    outline: none;
 }
 
 #container-para-comprar>p {
