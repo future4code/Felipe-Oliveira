@@ -141,6 +141,16 @@ td button {
     left: 260px;
 }
 
+tr td img{
+    position: relative;
+    right: 80px;
+}
+
+tr td button{
+    position: relative;
+    left: 130px;
+}
+
 .container-do-search {
     margin-top: 20px;
     height: 100px;
