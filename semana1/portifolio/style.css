@@ -8,15 +8,12 @@
 
 body,html{
     width: 1240px;
-    height: 700px;
+    height: 595px;
     background-color:#808080;
 }
 
-#logo{
-  background-image: url(imagens/logo-1.jpg);
-  width: 1240px;
-  height: 600px;
-  opacity: 95%;
+.fundo{
+    background: url(imagens/fundo1.jpg) repeat-x;
 }
 
 
@@ -28,7 +25,7 @@ body,html{
 }
 #menu ul{
     padding: 40px;
-    background-color: #363636;
+    background: url(imagens/fundo1.jpg) repeat-x #1C1C1C;
     list-style: none;
 }
 
@@ -40,6 +37,7 @@ body,html{
 }
 
 #menu ul li a{
+    font-family: Arial Black;
     text-decoration: none;
     color:#4F4F4F;
 }
@@ -50,22 +48,52 @@ body,html{
 
 
 
- /* ============ Estrutura texto-inicial ======== */
+ /* ============ Estrutura conteudo/texto inicial ======== */
 
-#bio{
-    margin-left: 350px;
-    margin-top: 130px;
-    font-size: 15px;
-    font-family: monospace, Helvetica, sans-serif;
+#conteudo{
+    width: 1000px;
+    height: 400px;
+    font-family: 'Ubuntu', sans-serif;
     color: white;
 }
 
-.titulo-bio{
-    font-size: 60px;
-    color: #00BFFF;
+ /* ============= Estrutura footer ======= */
+
+ footer{
+    border: 1px solid red;
+    margin-top: 287px;
+    padding: 85PX;
+    background: #1C1C1C;
+    border: 1px solid red;
+   
+}
+.texto-footer{
+    text-align: center;
+    color: white;
+ 
 }
 
-.subtitulo-bio{
-    font-size: 20px;
-    margin-left: 40px;
+/* =============== Estrutura bio ============= */
+
+#bio{
+    color: #FAF0E6;
+    font-family: Noto Sans, sans-serif;
+}
+
+#bio h2{
+    margin-left: 450px;
+    margin-top: 35px;
+}
+
+#bio p{
+    padding: 35px;
+    letter-spacing: 0.8px;
+}
+
+ 
+
+/* ======= Esttrutura portifilio/jobs ========--- */
+
+#portifolio{
+    color: white;
 }

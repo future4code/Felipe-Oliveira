@@ -1,0 +1,207 @@
+/** 
+  *
+  *  ESTILOS GERAIS 
+  *
+  **/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;;
+}
+
+h2 {
+    background-color: #fe7e02;
+    padding: 10px 5px 10px 5px;
+    color: white;
+    text-align: center;
+}
+
+button{
+    outline: none;
+}
+
+input {
+    height: 20px;
+    width: 500px;
+}
+
+.pesquisar{
+    border-bottom: 3px solid black;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+button:focus {
+    color: white;
+}
+
+img {
+    width: 100px;
+}
+
+div>p:first-child {
+    display: inline-block;
+}
+
+div img {
+    background: black;
+}
+
+.botao-amarelo {
+    background-color: #ffaf43;
+    color: white;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    position: relative;
+    top: 160px;
+    right: 250px;
+}
+
+.botao-amarelo a:hover {
+    background-color: #c44f00;
+}
+
+.container {
+    height: 500px;
+}
+
+.icone {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+}
+
+
+/** 
+  *
+  *  ESTILOS HOME 
+  *
+  **/
+
+#container-de-descricao {
+    background-color: #2274a5;
+    color: white;
+}
+
+#conteudo-inicial{
+    position: absolute;
+    top: 150px;
+    left: 500px;
+}
+ 
+    
+#conteudo-inicial>ol {
+    padding: 15px 0px;
+}
+
+#container-para-comprar {
+    background-color: #e7eb90;
+}
+
+#conteiner-para-compra button a{
+    outline: none;
+}
+
+#container-para-comprar>p {
+    color: #cc6600;
+    padding: 100px 0;
+    font-size: 60px;
+    position: relative;
+    left: 168px;
+}
+
+#texto-inicial{
+    position: absolute;
+    top: 35px;
+}
+
+
+/**
+  *
+  *  ESTILOS COMPRAR 
+  *
+  **/
+
+div:nth-child(2),
+div:last-child {
+    text-align: center;
+}
+
+table {
+    width: 60%;
+}
+
+td button {
+    background-color: #fadf63;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    color: black;
+}
+
+#tabela-precos{
+    position: relative;
+    left: 260px;
+}
+
+tr td img{
+    position: relative;
+    right: 80px;
+}
+
+tr td button{
+    position: relative;
+    left: 130px;
+}
+
+.container-do-search {
+    margin-top: 20px;
+    height: 100px;
+}
+
+.imagens-tabela{
+    width: 50px;
+    height: 40px;
+}
+
+.botao-tabela-de-compra a{
+    text-decoration: none;
+    color: black;
+}
+
+.botao-tabela-de-compra a:active{
+    color: white;
+}
+
+.botao-tabela-de-compra button:hover{
+    background-color: #ffff00;
+}
+
+
+#back-button {
+    background-color: white;
+    width: 100px;
+    height: 20px;
+    position: relative;
+    top: 120px;
+    left: 510px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 10px;
+    
+}
+
+#back-button:hover {
+    background-color: #635a3d
+}
+
+#back-button a{
+    color: black;
+    text-decoration: none;
+
+}
