@@ -114,6 +114,9 @@ console.log("eles gastam:" +consumo+ "kwh");
 let valorPago =(energia * consumo)
 console.log("Eles vão pagar certa de" + valorPago + "na conta de energia.");
 
+const desconto = 42
+console.log("voce terá " +desconto);
+
 
 
 
