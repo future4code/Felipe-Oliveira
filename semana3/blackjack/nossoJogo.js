@@ -48,11 +48,25 @@ if (confirm("Quer inicia uma nova rodada?")) {
    // resposta com os numeros sorteados
    console.log("Usuario", "-", "Cartas:", cartaUsuario1.texto, cartaUsuario2.texto, "-", "Pontuação", valorUsuario);
    console.log("Computador", "-", "Cartas:", cartaComputador1.texto, cartaComputador2.texto, "-", "Pontuação", valorComputador);
+   
    // condições de vitoria
-} else if(valorUsuario > valorComputador) {
-   console.log("O Usuario ganhou")
+ if (valorUsuario > valorComputador) {
+   console.log("O Usuario ganhou!")
+   
+}else if(valorComputador > valorUsuario) {
+   console.log("O computador ganhou!!")
+   
+} else if(valorComputador === valorUsuario){
+   console.log("Houve um empate")
+} else if(valorComputador > 21) {
+   console.log("O usuario ganhou!!")
+} else if(valorUsuario > 21) {
+   console.log("O computador ganhou!!")
 }
 
+} else{
+   console.log("O jogo acabou :(")
+}
 
 
 
