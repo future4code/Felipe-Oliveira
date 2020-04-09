@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=no">
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap" rel="stylesheet">
+    <title>Week Planner</title>
+</head>
+
+<body>
+    <div id="conteiner">
+        <header>
+            <!--input cria tarefas-->
+            <label for="tarefa">Nova Tarefa:</label>
+            <input type="text" id="tarefa">
+
+            <!--inicio datas da semana-->
+            <select name="dia-da-semana" id="dia-da-semana">
+
+                <option value="dia1">Segunda-Feira</option>
+                <option value="dia2">Terça-Feira</option>
+                <option value="dia3">Quarta-Feira</option>
+                <option value="dia4">Quinta-Feira</option>
+                <option value="dia5">Sexta-Feira</option>
+                <option value="dia6">Sabado</option>
+                <option value="dia7">Domingo</option>
+            </select>
+            <!--final datas da semana-->
+
+            <button onclick="novaTarefa()">Criar Tarefa!</button>
+            <!--botao criar terefa-->
+        </header>
+
+        <main>
+            <!--inicio do menu com dias da semana-->
+            <div id="segunda">
+                <h2> Segunda-Feira</h2>
+                <ul></ul>
+            </div>
+            <div id="terca">
+                <h2> Terça-Feira </h2>
+                <ul></ul>
+            </div>
+            <div id="quarta">
+                <h2> Quarta-Feira</h2>
+                <ul></ul>
+            </div>
+            <div id="quinta">
+                <h2> Quinta-Feira</h2>
+                <ul></ul>
+            </div>
+            <div id="sexta">
+                <h2> Sexta-Feira </h2>
+                <ul></ul>
+            </div>
+            <div id="sabado">
+                <h2> Sabado </h2>
+                <ul></ul>
+            </div>
+            <div id="domingo">
+                <h2> Domingo </h2>
+                <ul></ul>
+            </div>
+
+        </main>
+        <!--final do menu com datas da semana-->
+
+
+    </div>
+
+</body>
+
+</html>
