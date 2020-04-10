@@ -1,0 +1,47 @@
+/*
+* Estrutura do Header
+*/
+*{
+    font-family: 'Comic Neue', cursive;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh;
+    border-bottom: 2px solid black;
+}
+
+label{
+    position: relative;
+    right: 1vw;
+}
+
+select{
+    position: relative;
+    left: 1vw;
+}
+
+button{
+    position: relative;
+    left: 2vw;
+}
+
+/*
+* Estruta do main
+*/
+
+main{
+    display: flex;
+    justify-content: space-between;
+}
+
+div{
+    border-left: 1px solid black;
+}
+
+
+
+
+
