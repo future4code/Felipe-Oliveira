@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="conteiner">
+        <div id="controlador-de-despesas">
+            <h3>Controlador de Despesas</h3>
+            <h4>Cadrastar Despesas</h4>
+            <label for="despesas">Valor:</label> <input type="text" name="despesas" id="despesas" value="100">
+            <label for="">Tipo(Casa, Festas, Viagens, Diamantes no Free Fire)</label>
+            <select name="tipos-de-despesa" id="tipos-de-despesa">
+                <option value="casa">Casa</option>
+                <option value="festas">Festas</option>
+                <option value="viagens">Viagens</option>
+                <option value="jogos">Diamantes no Free Fire</option>
+
+            </select>
+            <label for="descricao">Descrição:</label> <input type="text" id="descricao" name="descricao">
+            <button onclick="">Cadrastar Despesa</button>
+        </div>
+
+        <div id="despesas-detalhadas">
+            <h3>Despesas Despesas Detalhadas</h3>
+            <select name="tipos-de-despesa" id="tipos-de-despesa">
+                <option value="casa">Casa</option>
+                <option value="festas">Festas</option>
+                <option value="viagens">Viagens</option>
+                <option value="jogos">Diamantes no Free Fire</option>
+
+            </select>
+
+            <label for="valor-maximo">Valor Maximo: </label> <input type="text" name="valor-maximo" id="valor-maximo">
+            <label for="valor-minimo">Valor Minimo: </label> <input type="text" name="valor-minimo" id="valor-minimo">
+
+            <button onclick="">Filtrar</button>
+            <button onclick="">Limpar Filtro</button>
+        </div>
+
+
+        <div id="extrato">
+            <h3>Extrato Atual</h3>            
+            <h4>Valor Atual:</h4>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
