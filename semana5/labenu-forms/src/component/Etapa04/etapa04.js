@@ -3,7 +3,7 @@ import './etapa04.css'
 
 export class Etapa04 extends React.Component {
     render() {
-        return <div>
+        return <div className = "Etapa04-conteiner">
             <h3>O FORMULÁRIO ACABOU</h3>
             <p> Obrigado por responder, entraremos em contato em breve</p>
         </div>

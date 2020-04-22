@@ -11,9 +11,6 @@ export class Etapa02 extends React.Component {
 
             <label for="unidadeEnsino">06- Qual a unidade de ensino?</label>
             <input type="text" className="unidadeEnsino"/>
-
-            <button>Proxima Etapa</button>
-
         </div>
     }
 }

@@ -1,9 +1,11 @@
 import React from 'react'
 import './etapa01.css'
+import { Etapa02} from '../Etapa02/etapa02'
 
 export class Etapa01 extends React.Component {
+    
     render(){
-        return <div className="Etapa01-conteiner">
+         return <div className="Etapa01-conteiner">
             <h3>ETAPA 1- DADOS GERAIS</h3>
             
             <label for="Nome">01- Qual è seu Nome?</label>
@@ -21,12 +23,10 @@ export class Etapa01 extends React.Component {
                 <option value="02"> Ensino Médio Completo</option>
                 <option value="03"> Ensino Superior Incompleto</option>
                 <option value="04"> Ensino Superior Completo</option>
-            </select>
-
-            <button>Proxima Etapa</button>
-               
-               </div>
+            </select>                
+                </div>
+            }
     }
-}
+
 
 export default Etapa01

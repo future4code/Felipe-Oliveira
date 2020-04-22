@@ -3,7 +3,7 @@ import './etapa03.css'
 
 export class Etapa03 extends React.Component {
     render() {
-        return <div>
+        return <div className = 'Etapa03-conteiner'>
             <h3>ETAPA 3 - INFORMAÇÕES GERAIS DE ENSINO</h3>
 
             <label for="graduacaoIncompleta"> 06- Qual Curso?</label>
@@ -15,8 +15,6 @@ export class Etapa03 extends React.Component {
                 <option> Cursos de inglês</option>
                 <option> Não fiz curso complementar</option>
             </select>
-
-            <button>Proxima Etapa</button>
         </div>
     }
 }
