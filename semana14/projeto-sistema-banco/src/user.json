@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Felipe",
+    "cpf": "111.111.111-11",
+    "dateOfBirth": "25/05/2000",
+    "balance": 0,
+    "extract": []
+  },
+  {
+    "name": "Paulo",
+    "cpf": "222.222.222-22",
+    "dateOfBirth": "02/02/1985",
+    "balance": 0,
+    "extract": []
+  },
+  {
+    "name": "Artu lanches",
+    "cpf": "444.444.444-44",
+    "dateOfBirth": "10/02/1820",
+    "balance": 0,
+    "extract": []
+  },
+  {
+    "name": "Artu lanches",
+    "cpf": "444.444.444-44",
+    "dateOfBirth": "10/02/1820",
+    "balance": 0,
+    "extract": []
+  },
+  {
+    "name": "AstroDev",
+    "cpf": "777.777.777-77",
+    "dateOfBirth": "14/12/1980",
+    "balance": 0,
+    "extract": []
+  },
+  {
+    "name": "rodrigo",
+    "cpf": "888.888.888-88",
+    "dateOfBirth": "25/02/2002",
+    "balance": 0,
+    "extract": []
+  },
+  {
+    "name": "rodrigo",
+    "cpf": "888.888.888-88",
+    "dateOfBirth": "28/20/1982",
+    "balance": 0,
+    "extract": []
+  }
+]

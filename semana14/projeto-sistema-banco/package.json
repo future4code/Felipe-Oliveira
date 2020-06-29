@@ -1,0 +1,19 @@
+{
+  "name": "projeto-sistema-banco",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "pegaUsuarios": "ts-node ./src/getUsers.ts"
+  },
+  "author": "felipe",
+  "license": "ISC",
+  "dependencies": {
+    "@types/moment": "^2.13.0",
+    "@types/node": "^14.0.14",
+    "moment": "^2.27.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  }
+}
